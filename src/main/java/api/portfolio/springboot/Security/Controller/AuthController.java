@@ -1,3 +1,4 @@
+
 package api.portfolio.springboot.Security.Controller;
 
 import api.portfolio.springboot.Security.Dto.JwtDto;
@@ -32,7 +33,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/auth")
 @CrossOrigin
 public class AuthController {
-     @Autowired
+    @Autowired
     PasswordEncoder passwordEncoder;
     @Autowired
     AuthenticationManager authenticationManager;
