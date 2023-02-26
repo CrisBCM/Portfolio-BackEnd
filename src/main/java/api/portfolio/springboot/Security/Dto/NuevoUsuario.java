@@ -6,7 +6,7 @@ import java.util.Set;
 
 
 public class NuevoUsuario {
-     private String nombre;
+    private String nombre;
     private String nombreUsuario;
     private String email;
     private String password;
