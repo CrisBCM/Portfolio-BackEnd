@@ -1,0 +1,6 @@
+api\portfolio\springboot\Persona\Controller\PersonaController.class
+api\portfolio\springboot\Persona\Service\IPersonaService.class
+api\portfolio\springboot\Persona\Service\PersonaService.class
+api\portfolio\springboot\SpringbootApiApplication.class
+api\portfolio\springboot\Persona\Entity\Persona.class
+api\portfolio\springboot\Persona\Repository\IPersonaRepository.class
