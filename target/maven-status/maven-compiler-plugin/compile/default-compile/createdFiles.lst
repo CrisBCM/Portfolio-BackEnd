@@ -16,9 +16,14 @@ api\portfolio\springboot\Security\Service\UsuarioService.class
 api\portfolio\springboot\Security\Dto\JwtDto.class
 api\portfolio\springboot\Security\Entity\Rol.class
 api\portfolio\springboot\Persona\Service\IPersonaService.class
+api\portfolio\springboot\Lenguaje\Entity\Lenguaje.class
 api\portfolio\springboot\Security\Enums\RolNombre.class
 api\portfolio\springboot\Security\jwt\JwtEntryPoint.class
+api\portfolio\springboot\Lenguaje\Controller\LenguajeController.class
+api\portfolio\springboot\Lenguaje\Service\ILenguajeService.class
+api\portfolio\springboot\Lenguaje\Service\LenguajeService.class
 api\portfolio\springboot\Security\jwt\JwtTokenFilter.class
 api\portfolio\springboot\Security\Dto\LoginUsuario.class
+api\portfolio\springboot\Lenguaje\Repository\ILenguajeRepository.class
 api\portfolio\springboot\Persona\Entity\Persona.class
 api\portfolio\springboot\Security\Controller\Mensaje.class
