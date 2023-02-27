@@ -21,7 +21,6 @@ public class PersonaController {
     @Autowired
     private IPersonaService personaService;
     
-    @PreAuthorize("hasRole('ADMIN')")
     @PostMapping("/crear/persona")
     public String crearPersona(@RequestBody Persona pers){
         personaService.crearPersona(pers);
