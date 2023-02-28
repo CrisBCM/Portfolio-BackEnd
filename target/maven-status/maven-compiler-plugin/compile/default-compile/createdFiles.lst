@@ -10,7 +10,6 @@ api\portfolio\springboot\Security\Entity\UsuarioPrincipal.class
 api\portfolio\springboot\Security\MainSecurity.class
 api\portfolio\springboot\Security\Service\UserDetailsImpl.class
 api\portfolio\springboot\Security\Service\RolServices.class
-.netbeans_automatic_build
 api\portfolio\springboot\Security\Controller\AuthController.class
 api\portfolio\springboot\Security\Repository\IRolRepository.class
 api\portfolio\springboot\Security\Service\UsuarioService.class
