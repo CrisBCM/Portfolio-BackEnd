@@ -3,6 +3,7 @@ package api.portfolio.springboot.Lenguaje.Service;
 
 import api.portfolio.springboot.Lenguaje.Entity.Lenguaje;
 import api.portfolio.springboot.Lenguaje.Repository.ILenguajeRepository;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -34,5 +35,10 @@ public class LenguajeService implements ILenguajeService{
         leng.setConocimientoPorcentaje(nuevoPorcentaje);
         
         lenguajeRepo.save(leng);
+    }
+
+    @Override
+    public List<Lenguaje> traerListaLenguajes() {
+        return lenguajeRepo.findAll();
     }
 }

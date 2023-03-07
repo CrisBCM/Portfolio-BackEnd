@@ -2,6 +2,7 @@ package api.portfolio.springboot.Lenguaje.Controller;
 
 import api.portfolio.springboot.Lenguaje.Entity.Lenguaje;
 import api.portfolio.springboot.Lenguaje.Service.ILenguajeService;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -30,6 +31,10 @@ public class LenguajeController {
     @GetMapping("/traer/lenguaje/{id}")
     public Lenguaje traerLenguaje(@PathVariable int id){
         return iLengService.traerLenguaje(id);
+    }
+    @GetMapping("/traer/lenguajes")
+    public List<Lenguaje> traerListaLenguajes(){
+        return iLengService.traerListaLenguajes();
     }
     
     @DeleteMapping("/eliminar/lenguaje/{id}")
