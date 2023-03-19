@@ -27,12 +27,13 @@ public class CursoService implements ICursoService{
     }
 
     @Override
-    public void editarCurso(int id, String nuevoNombre, String nuevaDescripcion, List<String> nuevaListaLenguajes) {
+    public void editarCurso(int id, String nuevoNombre, String nuevaDescripcion, List<String> nuevaListaLenguajes, String nuevaImg) {
         Curso curso = cursoRepo.findById(id).orElse(null);
         
         curso.setNombre(nuevoNombre);
         curso.setDescripcion(nuevaDescripcion);
         curso.setLenguajesAprendidos(nuevaListaLenguajes);
+        curso.setImg(nuevaImg);
         
         cursoRepo.save(curso);
     }

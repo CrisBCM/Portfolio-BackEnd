@@ -21,10 +21,12 @@ public class Curso {
     private String nombre;
     private String descripcion;
     private List<String> lenguajesAprendidos;
+    private String img;
 
-    public Curso(String nombre, String descripcion, List<String> lenguajesAprendidos) {
+    public Curso(String nombre, String descripcion, List<String> lenguajesAprendidos, String img) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.lenguajesAprendidos = lenguajesAprendidos;
+        this.img = img;
     }
 }

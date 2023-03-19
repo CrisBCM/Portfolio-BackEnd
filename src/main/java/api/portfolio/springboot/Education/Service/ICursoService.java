@@ -8,5 +8,5 @@ public interface ICursoService {
     public void crearCurso(Curso curso);
     public List<Curso> traerCursos();
     public void eliminarCurso(int id);
-    public void editarCurso(int id, String nuevoNombre, String nuevaDescripcion, List<String> nuevaListaLenguajes);
+    public void editarCurso(int id, String nuevoNombre, String nuevaDescripcion, List<String> nuevaListaLenguajes, String nuevaImg);
 }
