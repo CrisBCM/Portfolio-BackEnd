@@ -7,6 +7,8 @@ C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api
 C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Experiencia\Service\ExperienciaService.java
 C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Security\Entity\Usuario.java
 C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Security\Repository\IUsuarioRepository.java
+C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Education\Service\CursoService.java
+C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Education\Controller\CursoController.java
 C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Persona\Controller\PersonaController.java
 C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Security\Service\UsuarioService.java
 C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Security\MainSecurity.java
@@ -23,6 +25,9 @@ C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api
 C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Security\Entity\Rol.java
 C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Security\jwt\JwtProvider.java
 C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Persona\Service\PersonaService.java
+C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Education\Repository\ICursoRepository.java
+C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Education\Entity\Curso.java
+C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Education\Service\ICursoService.java
 C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Security\jwt\JwtEntryPoint.java
 C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Security\jwt\JwtTokenFilter.java
 C:\Users\Luser UwU\Documents\Spring Boot\git\Portfolio-Backend\src\main\java\api\portfolio\springboot\Persona\Repository\IPersonaRepository.java
