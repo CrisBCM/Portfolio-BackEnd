@@ -43,7 +43,7 @@ public class CursoController {
     public String editarCurso(@PathVariable int id,
                                  @RequestParam ("nombre") String nuevoNombre,
                                  @RequestParam ("descripcion") String nuevaDescripcion,
-                                 @RequestParam ("listaDeLenguajes") List<String> nuevaListaLenguajes,
+                                 @RequestParam ("lenguajesAprendidos") List<String> nuevaListaLenguajes,
                                  @RequestParam ("img") String nuevaImg)
                                  {
         cursoService.editarCurso(id, nuevoNombre, nuevaDescripcion, nuevaListaLenguajes, nuevaImg);
